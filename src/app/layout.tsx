@@ -19,11 +19,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header />
-        <main className="flex min-h-screen flex-col items-center justify-between p-24">
-          {children}
-        </main>
-        <AxiomWebVitals />
+        <div className="flex min-h-screen flex-col gap-4">
+          <Header />
+          <main className="flex flex-col items-center justify-between p-24">
+            {children}
+          </main>
+          <AxiomWebVitals />
+        </div>
       </body>
     </html>
   );

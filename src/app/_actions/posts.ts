@@ -12,6 +12,8 @@ export async function getPosts() {
 }
 
 // export async function getPostBySlug(slug: string) {
-//   const post = await db.query.posts.findFirst({ where: { slug } });
+//   const post = await db.query.posts.findFirst({
+//     where: (model, { equals }) => equals(model.slug, slug),
+//   });
 //   return post;
 // }

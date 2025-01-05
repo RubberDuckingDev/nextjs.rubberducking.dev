@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import { AxiomWebVitals } from "next-axiom";
 import { ClerkProvider } from "@clerk/nextjs";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import "@/app/highlight-github-dark.css";
+import "@/app/_libs/highlight-github-dark.css";
 import "./globals.css";
 import Header from "components/header/header";
 
